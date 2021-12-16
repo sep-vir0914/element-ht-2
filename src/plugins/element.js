@@ -1,0 +1,81 @@
+import Vue from 'vue'
+import {
+  Button,
+  Form,
+  FormItem,
+  Input,
+  Message,
+  Container,
+  Header,
+  Aside,
+  Card,
+  Col,
+  Row,
+  Main,
+  Menu,
+  Submenu,
+  MenuItemGroup,
+  MenuItem,
+  Icon,
+  Collapse,
+  CollapseItem,
+  Select,
+  Option,
+  DatePicker,
+  Table,
+  TableColumn,
+  Pagination,
+  Breadcrumb,
+  BreadcrumbItem,
+  Upload,
+  Dialog,
+  Avatar,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Progress,
+  Radio,
+  RadioGroup,
+  Popconfirm
+}
+from 'element-ui'
+
+Vue.use(Popconfirm)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(Progress)
+Vue.use(Dropdown)
+Vue.use(DropdownMenu)
+Vue.use(DropdownItem)
+Vue.use(Avatar)
+Vue.use(Upload)
+Vue.use(Dialog)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Pagination)
+Vue.use(DatePicker)
+Vue.use(Select)
+Vue.use(Option)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+// Vue.use(Message)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Card)
+Vue.use(Col)
+Vue.use(Row)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItemGroup)
+Vue.use(MenuItem)
+Vue.use(Icon)
+// 全局挂载弹框提示组件
+Vue.prototype.$message = Message

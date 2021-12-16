@@ -1,0 +1,14 @@
+/* 全局样式表 */
+html,
+body,
+#app{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.el-menu{
+    border: none;
+}
+.el-menu-item-group__title{
+    padding: 0;
+}
