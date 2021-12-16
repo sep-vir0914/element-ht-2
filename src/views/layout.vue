@@ -2,7 +2,10 @@
   <div class="app">
     <el-container>
       <!-- 头部布局容器 -->
-      <el-header>Header</el-header>
+      <el-header>
+         <div class="icon"><i class="el-icon-s-fold"></i></div>
+         <div class="title">聚合支付管理系统</div>
+      </el-header>
 
       <!-- 主体布局容器 -->
       <el-container>
@@ -32,12 +35,18 @@ export default {
   height: 100%;
 }
 .el-header {
-  background-color: #b3c0d1;
-  color: #333;
-  text-align: center;
-  line-height: 60px;
+  background-color: #242f42;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
 }
-
+.el-header .icon{
+  margin-right: 10px;
+  line-height: 60px;
+  display: flex;
+}
 .el-aside {
   background-color: #545c64;
   color: #333;

@@ -36,10 +36,12 @@ import {
   Progress,
   Radio,
   RadioGroup,
-  Popconfirm
+  Popconfirm,
+  Drawer
 }
 from 'element-ui'
 
+Vue.use(Drawer)
 Vue.use(Popconfirm)
 Vue.use(Radio)
 Vue.use(RadioGroup)
